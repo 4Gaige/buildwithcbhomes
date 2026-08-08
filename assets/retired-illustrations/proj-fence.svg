@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A clean new cedar privacy fence along a green yard with a gate">
+  <rect width="800" height="600" fill="#e8e2d9"/>
+  <circle cx="640" cy="110" r="52" fill="#f9f5f1"/>
+  <path d="M0 380 Q130 350 260 374 Q390 348 520 372 Q660 350 800 370 L800 430 L0 430 Z" fill="#bcccd7" opacity=".5"/>
+  <rect y="410" width="800" height="190" fill="#d1cbc1"/>
+
+  <!-- fence run -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <path d="M60 500 L60 330 M140 500 L140 330 M220 500 L220 330 M300 500 L300 330 M380 500 L380 330" fill="none"/>
+    <rect x="40" y="330" width="360" height="16" fill="#fcfaf8"/>
+    <rect x="40" y="410" width="360" height="16" fill="#fcfaf8"/>
+    <rect x="40" y="484" width="360" height="16" fill="#fcfaf8"/>
+    <path d="M40 330 L40 500 M400 330 L400 500" fill="none"/>
+  </g>
+
+  <!-- gate with arch -->
+  <g stroke="#0b3150" stroke-width="5">
+    <path d="M440 500 L440 340 Q510 300 580 340 L580 500" fill="#fcfaf8"/>
+    <path d="M470 500 L470 350 M510 500 L510 336 M550 500 L550 350" stroke-width="4" fill="none"/>
+    <circle cx="560" cy="424" r="6" fill="#0b3150"/>
+  </g>
+
+  <!-- post caps -->
+  <g fill="#627885" stroke="#0b3150" stroke-width="4">
+    <rect x="30" y="316" width="20" height="14"/>
+    <rect x="390" y="316" width="20" height="14"/>
+  </g>
+
+  <!-- shrub + tree behind fence -->
+  <g stroke="#0b3150" stroke-width="5">
+    <path d="M660 500 L660 400" fill="none"/>
+    <circle cx="660" cy="360" r="52" fill="#627885"/>
+    <ellipse cx="620" cy="486" rx="40" ry="24" fill="#54708b"/>
+  </g>
+
+  <!-- stepping stones -->
+  <g fill="#fcfaf8" stroke="#0b3150" stroke-width="4">
+    <ellipse cx="510" cy="540" rx="28" ry="11"/>
+    <ellipse cx="510" cy="572" rx="28" ry="11"/>
+  </g>
+
+  <g stroke="#0b3150" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M180 150 Q192 138 204 150 Q216 138 228 150"/>
+  </g>
+</svg>

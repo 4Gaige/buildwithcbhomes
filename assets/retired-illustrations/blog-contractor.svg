@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A contractor and a homeowner reviewing plans together at a table">
+  <rect width="800" height="600" fill="#f9f5f1"/>
+  <rect y="470" width="800" height="130" fill="#e8e2d9"/>
+
+  <!-- window -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="310" y="70" width="190" height="160" fill="#bcccd7"/>
+    <path d="M310 150 L500 150 M405 70 L405 230" stroke-width="4"/>
+    <circle cx="358" cy="112" r="20" fill="#f9f5f1" stroke="none"/>
+  </g>
+
+  <!-- contractor (left, hard hat) -->
+  <g stroke="#0b3150" stroke-width="6" stroke-linejoin="round">
+    <path d="M130 600 L130 486 Q130 434 210 434 Q290 434 290 486 L290 600" fill="#627885"/>
+    <circle cx="210" cy="356" r="56" fill="#fcfaf8"/>
+    <path d="M154 348 Q154 292 210 292 Q266 292 266 348 Z" fill="#d1cbc1"/>
+    <rect x="142" y="342" width="136" height="13" fill="#d1cbc1"/>
+    <circle cx="189" cy="358" r="5" fill="#0b3150" stroke="none"/>
+    <circle cx="231" cy="358" r="5" fill="#0b3150" stroke="none"/>
+    <path d="M189 384 Q210 400 231 384" fill="none" stroke-width="5"/>
+  </g>
+
+  <!-- homeowner (right) -->
+  <g stroke="#0b3150" stroke-width="6" stroke-linejoin="round">
+    <path d="M520 600 L520 490 Q520 440 592 440 Q664 440 664 490 L664 600" fill="#54708b"/>
+    <circle cx="592" cy="364" r="54" fill="#fcfaf8"/>
+    <path d="M540 360 Q540 302 592 302 Q644 302 644 360 Q620 330 592 330 Q564 330 540 360 Z" fill="#627885"/>
+    <circle cx="572" cy="366" r="5" fill="#0b3150" stroke="none"/>
+    <circle cx="612" cy="366" r="5" fill="#0b3150" stroke="none"/>
+    <path d="M572 390 Q592 406 612 390" fill="none" stroke-width="5"/>
+  </g>
+
+  <!-- table -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="296" y="444" width="220" height="20" fill="#fcfaf8"/>
+    <path d="M312 464 L306 588 M500 464 L506 588" fill="none"/>
+  </g>
+
+  <!-- open plan sheet on the table -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="318" y="416" width="150" height="28" fill="#fcfaf8"/>
+    <path d="M334 430 L390 430 M404 424 L448 424 M404 436 L436 436" stroke="#54708b" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- rolled plans and coffee cup -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="452" y="398" width="56" height="18" rx="9" fill="#fcfaf8"/>
+    <circle cx="452" cy="407" r="9" fill="#bcccd7"/>
+    <rect x="322" y="392" width="22" height="24" fill="#bcccd7"/>
+    <path d="M344 398 Q356 398 356 406 Q356 414 344 412" fill="none"/>
+  </g>
+</svg>

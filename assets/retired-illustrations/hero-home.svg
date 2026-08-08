@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 760" role="img" aria-label="Illustration of a beautifully finished home at golden hour, with fresh paint, a new deck, and a tidy fence line">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcccd7"/>
+      <stop offset=".62" stop-color="#e8e2d9"/>
+      <stop offset="1" stop-color="#f9f5f1"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1600" height="760" fill="url(#sky)"/>
+  <circle cx="1310" cy="150" r="74" fill="#f9f5f1" opacity=".9"/>
+
+  <!-- distant treeline -->
+  <path d="M0 470 Q120 430 240 462 Q340 420 470 458 Q590 428 700 460 L700 520 L0 520 Z" fill="#bcccd7" opacity=".55"/>
+  <path d="M900 468 Q1030 428 1150 460 Q1290 424 1420 458 Q1520 436 1600 456 L1600 520 L900 520 Z" fill="#bcccd7" opacity=".45"/>
+
+  <!-- ground -->
+  <rect y="520" width="1600" height="240" fill="#d1cbc1"/>
+  <rect y="520" width="1600" height="6" fill="#c2bbaf"/>
+
+  <!-- the home -->
+  <g stroke="#0b3150" stroke-width="6" stroke-linejoin="round">
+    <!-- main body -->
+    <rect x="560" y="380" width="380" height="240" fill="#fcfaf8"/>
+    <path d="M540 380 L750 240 L960 380 Z" fill="#627885"/>
+    <!-- gable window -->
+    <circle cx="750" cy="330" r="26" fill="#bcccd7"/>
+    <path d="M750 304 L750 356 M724 330 L776 330" stroke-width="4"/>
+    <!-- front door -->
+    <rect x="710" y="500" width="80" height="120" fill="#54708b"/>
+    <circle cx="774" cy="562" r="5" fill="#f9f5f1"/>
+    <!-- windows -->
+    <rect x="600" y="430" width="70" height="86" fill="#bcccd7"/>
+    <path d="M600 473 L670 473 M635 430 L635 516" stroke-width="4"/>
+    <rect x="850" y="430" width="70" height="86" fill="#bcccd7"/>
+    <path d="M850 473 L920 473 M885 430 L885 516" stroke-width="4"/>
+    <!-- porch roof + posts -->
+    <path d="M690 500 L810 500 L800 478 L700 478 Z" fill="#627885"/>
+    <path d="M700 500 L700 620 M800 500 L800 620" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- new deck, right side -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="960" y="560" width="250" height="18" fill="#d1cbc1"/>
+    <path d="M980 578 L980 620 M1040 578 L1040 620 M1100 578 L1100 620 M1160 578 L1160 620" fill="none"/>
+    <path d="M960 560 L960 528 M1210 560 L1210 528 M960 532 L1210 532" fill="none"/>
+    <!-- planter on deck -->
+    <path d="M1120 528 L1160 528 L1152 500 L1128 500 Z" fill="#627885"/>
+    <path d="M1140 500 Q1128 478 1140 462 Q1152 478 1140 500" fill="#54708b" stroke-width="4"/>
+  </g>
+
+  <!-- fresh fence line, left -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <path d="M120 620 L120 540 L150 520 L180 540 L180 620 Z" fill="#fcfaf8"/>
+    <path d="M210 620 L210 540 L240 520 L270 540 L270 620 Z" fill="#fcfaf8"/>
+    <path d="M300 620 L300 540 L330 520 L360 540 L360 620 Z" fill="#fcfaf8"/>
+    <path d="M90 560 L390 560 M90 596 L390 596" fill="none"/>
+  </g>
+
+  <!-- painter's ladder against house edge, tasteful nod to services -->
+  <g stroke="#0b3150" stroke-width="5" fill="none">
+    <path d="M500 620 L540 430 M540 620 L580 430"/>
+    <path d="M508 585 L548 585 M516 550 L556 550 M524 515 L564 515 M532 480 L572 480"/>
+  </g>
+  <!-- paint can -->
+  <g stroke="#0b3150" stroke-width="4">
+    <rect x="450" y="588" width="34" height="32" fill="#54708b"/>
+    <path d="M450 596 Q467 586 484 596" fill="none"/>
+  </g>
+
+  <!-- walkway -->
+  <g fill="#fcfaf8" stroke="#0b3150" stroke-width="4">
+    <ellipse cx="750" cy="650" rx="34" ry="12"/>
+    <ellipse cx="750" cy="686" rx="34" ry="12"/>
+    <ellipse cx="750" cy="722" rx="34" ry="12"/>
+  </g>
+
+  <!-- shrubs -->
+  <g stroke="#0b3150" stroke-width="5">
+    <ellipse cx="640" cy="628" rx="42" ry="26" fill="#627885"/>
+    <ellipse cx="880" cy="630" rx="36" ry="22" fill="#54708b"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#0b3150" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M420 170 Q432 158 444 170 Q456 158 468 170"/>
+    <path d="M1120 210 Q1130 200 1140 210 Q1150 200 1160 210"/>
+  </g>
+</svg>

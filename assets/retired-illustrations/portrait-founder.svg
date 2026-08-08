@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Placeholder portrait of the CB Construction founder on a job site — swap for a real photo">
+  <rect width="800" height="640" fill="#e8e2d9"/>
+  <rect x="0" y="470" width="800" height="170" fill="#d1cbc1"/>
+  <circle cx="650" cy="120" r="56" fill="#f9f5f1" opacity=".9"/>
+
+  <!-- framed wall going up behind -->
+  <g stroke="#0b3150" stroke-width="5" fill="none" opacity=".5">
+    <path d="M520 470 L520 240 M580 470 L580 240 M640 470 L640 240 M700 470 L700 240 M760 470 L760 240"/>
+    <path d="M500 250 L790 250 M500 360 L790 360"/>
+  </g>
+
+  <!-- founder -->
+  <g stroke="#0b3150" stroke-width="6" stroke-linejoin="round">
+    <path d="M240 640 L240 480 Q240 428 320 428 Q400 428 400 480 L400 640" fill="#627885"/>
+    <circle cx="320" cy="345" r="64" fill="#fcfaf8"/>
+    <path d="M256 335 Q256 272 320 272 Q384 272 384 335 Z" fill="#d1cbc1"/>
+    <rect x="244" y="329" width="152" height="14" fill="#d1cbc1"/>
+    <path d="M296 374 Q320 392 344 374" fill="none" stroke-width="5"/>
+    <circle cx="296" cy="346" r="5" fill="#0b3150" stroke="none"/>
+    <circle cx="344" cy="346" r="5" fill="#0b3150" stroke="none"/>
+    <path d="M246 498 Q320 540 394 498" fill="none"/>
+  </g>
+
+  <!-- level in hand -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="128" y="520" width="150" height="26" fill="#fcfaf8"/>
+    <circle cx="203" cy="533" r="7" fill="#bcccd7"/>
+  </g>
+
+  <!-- blueprint roll -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="450" y="520" width="120" height="30" rx="15" fill="#fcfaf8"/>
+    <circle cx="450" cy="535" r="15" fill="#bcccd7"/>
+  </g>
+</svg>

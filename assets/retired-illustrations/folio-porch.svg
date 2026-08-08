@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A screened porch with two rocking chairs, a side table, and a hanging fern">
+  <rect width="800" height="600" fill="#e8e2d9"/>
+  <rect y="464" width="800" height="136" fill="#d1cbc1"/>
+
+  <!-- porch frame: beam, posts, knee wall -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="34" y="72" width="720" height="28" fill="#fcfaf8"/>
+    <rect x="34" y="100" width="36" height="330" fill="#fcfaf8"/>
+    <rect x="250" y="100" width="36" height="330" fill="#fcfaf8"/>
+    <rect x="466" y="100" width="36" height="330" fill="#fcfaf8"/>
+    <rect x="682" y="100" width="36" height="330" fill="#fcfaf8"/>
+    <rect x="34" y="430" width="684" height="34" fill="#627885"/>
+  </g>
+
+  <!-- screened openings with view of the yard -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="70" y="100" width="180" height="330" fill="#bcccd7"/>
+    <rect x="286" y="100" width="180" height="330" fill="#bcccd7"/>
+    <rect x="502" y="100" width="180" height="330" fill="#bcccd7"/>
+  </g>
+  <circle cx="592" cy="170" r="34" fill="#f9f5f1"/>
+  <ellipse cx="160" cy="408" rx="46" ry="18" fill="#54708b"/>
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <path d="M350 430 L350 356" fill="none"/>
+    <circle cx="350" cy="330" r="36" fill="#627885"/>
+  </g>
+  <!-- screen mesh -->
+  <g stroke="#fcfaf8" stroke-width="2" fill="none" opacity=".55">
+    <path d="M115 100 L115 430 M160 100 L160 430 M205 100 L205 430"/>
+    <path d="M331 100 L331 430 M376 100 L376 430 M421 100 L421 430"/>
+    <path d="M547 100 L547 430 M592 100 L592 430 M637 100 L637 430"/>
+    <path d="M70 210 L250 210 M70 320 L250 320"/>
+    <path d="M286 210 L466 210 M286 320 L466 320"/>
+    <path d="M502 210 L682 210 M502 320 L682 320"/>
+  </g>
+
+  <!-- porch floor boards -->
+  <g stroke="#bcccd7" stroke-width="3" fill="none">
+    <path d="M0 508 L800 508 M0 550 L800 550 M120 508 L112 550 M540 550 L534 600 M680 508 L674 550"/>
+  </g>
+
+  <!-- rocking chair one -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <path d="M196 508 L212 396 L236 396 L222 508 Z" fill="#54708b"/>
+    <rect x="190" y="506" width="110" height="13" fill="#fcfaf8"/>
+    <path d="M200 519 L196 560 M288 519 L292 560" fill="none"/>
+    <path d="M216 452 L286 448 M284 448 L286 506" stroke-width="4" fill="none"/>
+    <path d="M168 566 Q244 592 322 560" fill="none"/>
+  </g>
+
+  <!-- rocking chair two -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <path d="M426 508 L442 396 L466 396 L452 508 Z" fill="#627885"/>
+    <rect x="420" y="506" width="110" height="13" fill="#fcfaf8"/>
+    <path d="M430 519 L426 560 M518 519 L522 560" fill="none"/>
+    <path d="M446 452 L516 448 M514 448 L516 506" stroke-width="4" fill="none"/>
+    <path d="M398 566 Q474 592 552 560" fill="none"/>
+  </g>
+
+  <!-- side table -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="330" y="498" width="64" height="10" fill="#fcfaf8"/>
+    <path d="M362 508 L362 560" fill="none"/>
+    <ellipse cx="362" cy="562" rx="22" ry="7" fill="#fcfaf8"/>
+    <rect x="352" y="478" width="16" height="20" fill="#bcccd7"/>
+  </g>
+
+  <!-- hanging fern -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <path d="M660 0 L660 112" fill="none"/>
+    <circle cx="638" cy="118" r="16" fill="#627885"/>
+    <circle cx="682" cy="118" r="16" fill="#627885"/>
+    <circle cx="660" cy="106" r="18" fill="#627885"/>
+    <path d="M636 132 L684 132 L672 164 L648 164 Z" fill="#d1cbc1"/>
+  </g>
+</svg>

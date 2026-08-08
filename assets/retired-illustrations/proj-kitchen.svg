@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A remodeled kitchen with an island, pendant lights, and a tall window">
+  <rect width="800" height="600" fill="#f9f5f1"/>
+  <rect y="470" width="800" height="130" fill="#e8e2d9"/>
+
+  <!-- window with backyard view -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="80" y="90" width="200" height="260" fill="#bcccd7"/>
+    <path d="M80 220 L280 220 M180 90 L180 350" stroke-width="4"/>
+    <circle cx="130" cy="140" r="22" fill="#f9f5f1" stroke="none"/>
+  </g>
+
+  <!-- upper cabinets -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="340" y="90" width="130" height="110" fill="#fcfaf8"/>
+    <rect x="480" y="90" width="130" height="110" fill="#fcfaf8"/>
+    <path d="M405 130 L405 160 M545 130 L545 160" stroke-width="4"/>
+  </g>
+
+  <!-- counter run -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="330" y="300" width="300" height="20" fill="#fcfaf8"/>
+    <rect x="340" y="320" width="280" height="150" fill="#627885"/>
+    <path d="M420 320 L420 470 M540 320 L540 470" stroke-width="4"/>
+    <circle cx="400" cy="392" r="5" fill="#f9f5f1" stroke="none"/>
+    <circle cx="520" cy="392" r="5" fill="#f9f5f1" stroke="none"/>
+  </g>
+  <!-- faucet -->
+  <g stroke="#0b3150" stroke-width="5" fill="none">
+    <path d="M470 300 L470 268 Q470 252 486 252 L500 252"/>
+  </g>
+
+  <!-- island -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="240" y="440" width="330" height="26" fill="#fcfaf8"/>
+    <rect x="256" y="466" width="298" height="100" fill="#54708b"/>
+    <path d="M300 476 Q330 470 356 478 M420 474 Q460 482 496 474" stroke="#bcccd7" stroke-width="4" fill="none"/>
+  </g>
+  <!-- stools -->
+  <g stroke="#0b3150" stroke-width="4" fill="#d1cbc1">
+    <rect x="600" y="470" width="52 " height="14"/>
+    <path d="M608 484 L604 566 M644 484 L648 566" fill="none"/>
+  </g>
+
+  <!-- pendant lights -->
+  <g stroke="#0b3150" stroke-width="4" fill="none">
+    <path d="M340 0 L340 130 M470 0 L470 110"/>
+    <path d="M316 158 Q340 128 364 158 Z" fill="#627885"/>
+    <path d="M446 138 Q470 108 494 138 Z" fill="#627885"/>
+  </g>
+
+  <!-- fruit bowl -->
+  <g stroke="#0b3150" stroke-width="4">
+    <path d="M380 440 Q405 424 430 440 Q405 432 380 440" fill="#627885"/>
+    <circle cx="395" cy="428" r="8" fill="#d1cbc1"/>
+    <circle cx="413" cy="424" r="8" fill="#bcccd7"/>
+  </g>
+</svg>

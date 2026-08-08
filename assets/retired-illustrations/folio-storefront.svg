@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A small storefront with a fresh striped awning, display window, and planters by the door">
+  <defs>
+    <linearGradient id="folioStorefrontSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcccd7"/>
+      <stop offset="1" stop-color="#f9f5f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#folioStorefrontSky)"/>
+  <circle cx="690" cy="104" r="48" fill="#f9f5f1"/>
+  <rect y="470" width="800" height="130" fill="#d1cbc1"/>
+
+  <!-- building -->
+  <g stroke="#0b3150" stroke-width="6" stroke-linejoin="round">
+    <rect x="130" y="150" width="540" height="320" fill="#fcfaf8"/>
+    <rect x="118" y="134" width="564" height="18" fill="#fcfaf8"/>
+    <rect x="130" y="152" width="540" height="56" fill="#627885"/>
+  </g>
+  <!-- blank sign plaque -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="310" y="164" width="180" height="32" fill="#fcfaf8"/>
+    <path d="M336 180 L420 180 M436 180 L464 180" fill="none"/>
+  </g>
+
+  <!-- striped awning with scalloped edge -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="150" y="228" width="60" height="48" fill="#54708b"/>
+    <rect x="210" y="228" width="60" height="48" fill="#fcfaf8"/>
+    <rect x="270" y="228" width="60" height="48" fill="#54708b"/>
+    <rect x="330" y="228" width="60" height="48" fill="#fcfaf8"/>
+    <rect x="390" y="228" width="60" height="48" fill="#54708b"/>
+    <rect x="450" y="228" width="60" height="48" fill="#fcfaf8"/>
+    <rect x="510" y="228" width="60" height="48" fill="#54708b"/>
+    <rect x="570" y="228" width="60" height="48" fill="#fcfaf8"/>
+    <path d="M150 276 a30 18 0 0 0 60 0 Z" fill="#54708b"/>
+    <path d="M210 276 a30 18 0 0 0 60 0 Z" fill="#fcfaf8"/>
+    <path d="M270 276 a30 18 0 0 0 60 0 Z" fill="#54708b"/>
+    <path d="M330 276 a30 18 0 0 0 60 0 Z" fill="#fcfaf8"/>
+    <path d="M390 276 a30 18 0 0 0 60 0 Z" fill="#54708b"/>
+    <path d="M450 276 a30 18 0 0 0 60 0 Z" fill="#fcfaf8"/>
+    <path d="M510 276 a30 18 0 0 0 60 0 Z" fill="#54708b"/>
+    <path d="M570 276 a30 18 0 0 0 60 0 Z" fill="#fcfaf8"/>
+  </g>
+
+  <!-- display window -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="170" y="310" width="270" height="160" fill="#bcccd7"/>
+    <path d="M305 310 L305 470" stroke-width="4" fill="none"/>
+    <rect x="210" y="416" width="90" height="42" fill="#54708b" stroke-width="4"/>
+    <circle cx="366" cy="352" r="16" fill="#f9f5f1" stroke="none"/>
+  </g>
+
+  <!-- door -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="500" y="300" width="110" height="170" fill="#54708b"/>
+    <rect x="520" y="322" width="70" height="66" fill="#bcccd7" stroke-width="4"/>
+    <circle cx="590" cy="398" r="5" fill="#f9f5f1" stroke="none"/>
+  </g>
+
+  <!-- planters -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <circle cx="472" cy="410" r="24" fill="#627885"/>
+    <path d="M450 432 L494 432 L486 468 L458 468 Z" fill="#d1cbc1"/>
+    <circle cx="644" cy="410" r="24" fill="#627885"/>
+    <path d="M622 432 L666 432 L658 468 L630 468 Z" fill="#d1cbc1"/>
+  </g>
+
+  <!-- sidewalk joints -->
+  <g stroke="#bcccd7" stroke-width="4" fill="none">
+    <path d="M60 522 L740 522 M200 522 L180 600 M420 522 L420 600 M620 522 L648 600"/>
+  </g>
+
+  <!-- birds -->
+  <g stroke="#0b3150" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M180 92 Q192 80 204 92 Q216 80 228 92"/>
+  </g>
+</svg>

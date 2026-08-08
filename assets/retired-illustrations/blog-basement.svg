@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="An unfinished basement mid-project with newly framed stud walls, exposed joists overhead, and a work light">
+  <rect width="800" height="600" fill="#e8e2d9"/>
+  <rect y="480" width="800" height="120" fill="#d1cbc1"/>
+
+  <!-- exposed ceiling joists -->
+  <g stroke="#0b3150" stroke-width="4" fill="none" opacity=".8">
+    <path d="M0 70 L800 70"/>
+    <path d="M60 0 L60 70 M160 0 L160 70 M260 0 L260 70 M360 0 L360 70 M460 0 L460 70 M560 0 L560 70 M660 0 L660 70 M760 0 L760 70"/>
+  </g>
+
+  <!-- small hopper window with daylight -->
+  <g stroke="#0b3150" stroke-width="5">
+    <rect x="610" y="110" width="130" height="80" fill="#bcccd7"/>
+    <circle cx="645" cy="140" r="16" fill="#f9f5f1" stroke="none"/>
+    <path d="M675 110 L675 190" stroke-width="4"/>
+  </g>
+
+  <!-- new framed stud wall -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="60" y="120" width="360" height="18" fill="#fcfaf8"/>
+    <rect x="60" y="462" width="360" height="18" fill="#fcfaf8"/>
+    <path d="M84 138 L84 462 M150 138 L150 462 M216 138 L216 462 M282 138 L282 462 M348 138 L348 462 M396 138 L396 462" fill="none"/>
+    <path d="M84 300 L396 300" stroke-width="4"/>
+  </g>
+
+  <!-- drywall sheets leaning against the far wall -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <path d="M478 480 L508 210 L648 210 L618 480 Z" fill="#fcfaf8"/>
+    <path d="M508 480 L536 232" fill="none" stroke-width="3" opacity=".6"/>
+  </g>
+
+  <!-- work light on tripod -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <path d="M696 480 L728 356 L760 480 M728 356 L728 330" fill="none"/>
+    <rect x="698" y="286" width="60" height="44" fill="#f9f5f1"/>
+    <path d="M698 300 L758 300" stroke-width="3" opacity=".6"/>
+  </g>
+
+  <!-- lumber stack on the slab -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="110" y="506" width="230" height="16" fill="#fcfaf8"/>
+    <rect x="130" y="522" width="230" height="16" fill="#fcfaf8"/>
+  </g>
+
+  <!-- toolbox -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="420" y="512" width="90" height="34" fill="#54708b"/>
+    <path d="M440 512 Q440 496 465 496 Q490 496 490 512" fill="none"/>
+  </g>
+</svg>

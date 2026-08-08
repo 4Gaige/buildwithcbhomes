@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A new backyard deck with railing, string lights, and two chairs at dusk">
+  <defs>
+    <linearGradient id="dusk-deck" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcccd7"/>
+      <stop offset="1" stop-color="#f9f5f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#dusk-deck)"/>
+  <circle cx="150" cy="110" r="50" fill="#f9f5f1"/>
+  <path d="M0 380 Q160 344 320 372 Q480 340 640 368 Q720 352 800 364 L800 420 L0 420 Z" fill="#bcccd7" opacity=".5"/>
+  <rect y="400" width="800" height="200" fill="#d1cbc1"/>
+
+  <!-- deck platform -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="120" y="440" width="560" height="22" fill="#e8e2d9"/>
+    <path d="M150 462 L150 540 M270 462 L270 540 M390 462 L390 540 M510 462 L510 540 M630 462 L630 540" fill="none"/>
+    <!-- deck boards -->
+    <path d="M120 451 L680 451" stroke-width="3" opacity=".6"/>
+    <!-- railing -->
+    <path d="M120 440 L120 360 M680 440 L680 360 M120 366 L680 366" fill="none"/>
+    <path d="M180 440 L180 366 M260 440 L260 366 M340 440 L340 366 M420 440 L420 366 M500 440 L500 366 M580 440 L580 366" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- string lights -->
+  <g stroke="#0b3150" stroke-width="3" fill="none">
+    <path d="M120 360 Q400 300 680 360"/>
+  </g>
+  <g fill="#f9f5f1" stroke="#0b3150" stroke-width="3">
+    <circle cx="220" cy="341" r="7"/>
+    <circle cx="330" cy="327" r="7"/>
+    <circle cx="440" cy="325" r="7"/>
+    <circle cx="550" cy="335" r="7"/>
+  </g>
+
+  <!-- two chairs -->
+  <g stroke="#0b3150" stroke-width="5" fill="#54708b">
+    <path d="M300 440 L300 400 Q300 390 310 390 L340 390 Q350 390 350 400 L350 440 Z"/>
+    <path d="M300 414 L286 440" fill="none"/>
+    <path d="M440 440 L440 400 Q440 390 450 390 L480 390 Q490 390 490 400 L490 440 Z"/>
+    <path d="M490 414 L504 440" fill="none"/>
+  </g>
+  <!-- small table with lantern -->
+  <g stroke="#0b3150" stroke-width="4">
+    <path d="M388 440 L388 412 L412 412 L412 440" fill="none"/>
+    <rect x="380" y="404" width="40" height="8" fill="#e8e2d9"/>
+    <rect x="392" y="382" width="16" height="22" fill="#bcccd7"/>
+  </g>
+</svg>

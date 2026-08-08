@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A finished basement family room with a sofa, floor lamp, rug, and high daylight windows">
+  <rect width="800" height="600" fill="#f9f5f1"/>
+  <rect y="470" width="800" height="130" fill="#e8e2d9"/>
+
+  <!-- high daylight windows -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="90" y="70" width="170" height="95" fill="#bcccd7"/>
+    <path d="M175 70 L175 165" stroke-width="4" fill="none"/>
+    <circle cx="132" cy="102" r="16" fill="#f9f5f1" stroke="none"/>
+    <rect x="540" y="70" width="170" height="95" fill="#bcccd7"/>
+    <path d="M625 70 L625 165" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- recessed ceiling lights -->
+  <g fill="#fcfaf8" stroke="#0b3150" stroke-width="4">
+    <circle cx="330" cy="34" r="10"/>
+    <circle cx="470" cy="34" r="10"/>
+  </g>
+
+  <!-- framed art -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="350" y="180" width="110" height="80" fill="#fcfaf8"/>
+    <path d="M350 244 Q378 214 405 238 Q432 210 460 240 L460 260 L350 260 Z" fill="#627885"/>
+    <circle cx="382" cy="204" r="10" fill="#bcccd7" stroke="none"/>
+  </g>
+
+  <!-- sofa -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="220" y="330" width="320" height="76" fill="#54708b"/>
+    <rect x="200" y="400" width="360" height="70" fill="#54708b"/>
+    <rect x="200" y="350" width="42" height="120" fill="#627885"/>
+    <rect x="518" y="350" width="42" height="120" fill="#627885"/>
+    <path d="M380 406 L380 464 M380 336 L380 400" stroke-width="4" fill="none"/>
+    <rect x="256" y="352" width="52" height="48" fill="#bcccd7" stroke-width="4"/>
+    <rect x="452" y="352" width="52" height="48" fill="#bcccd7" stroke-width="4"/>
+    <path d="M222 470 L222 492 M538 470 L538 492" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- floor lamp -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <circle cx="644" cy="276" r="18" fill="#f9f5f1" stroke="none"/>
+    <path d="M644 470 L644 252" fill="none"/>
+    <path d="M610 200 L678 200 L692 252 L596 252 Z" fill="#627885"/>
+    <ellipse cx="644" cy="474" rx="34" ry="10" fill="#627885" stroke-width="4"/>
+  </g>
+
+  <!-- side table with books -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <rect x="100" y="424" width="80" height="12" fill="#fcfaf8"/>
+    <path d="M112 436 L108 490 M168 436 L172 490" fill="none"/>
+    <rect x="116" y="408" width="48" height="8" fill="#bcccd7"/>
+    <rect x="122" y="396" width="40" height="12" fill="#627885"/>
+  </g>
+
+  <!-- rug -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <ellipse cx="390" cy="536" rx="190" ry="26" fill="#fcfaf8"/>
+    <ellipse cx="390" cy="536" rx="146" ry="16" fill="none" stroke="#bcccd7" stroke-width="3"/>
+  </g>
+</svg>

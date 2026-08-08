@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="A new home framed with studs and roof trusses under a pale sun">
+  <defs>
+    <linearGradient id="sky-custom" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bcccd7"/>
+      <stop offset="1" stop-color="#f9f5f1"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky-custom)"/>
+  <circle cx="140" cy="104" r="52" fill="#f9f5f1"/>
+  <rect y="430" width="800" height="170" fill="#d1cbc1"/>
+
+  <!-- slab and plates -->
+  <g stroke="#0b3150" stroke-width="5" stroke-linejoin="round">
+    <rect x="160" y="432" width="480" height="26" fill="#fcfaf8"/>
+    <rect x="170" y="258" width="460" height="16" fill="#fcfaf8"/>
+  </g>
+
+  <!-- wall studs with a framed window opening -->
+  <g stroke="#0b3150" stroke-width="5" fill="none">
+    <path d="M180 432 L180 274 M240 432 L240 274 M300 432 L300 274 M340 432 L340 274 M470 432 L470 274 M530 432 L530 274 M590 432 L590 274 M620 432 L620 274"/>
+    <path d="M405 274 L405 300 M405 392 L405 432" stroke-width="4"/>
+  </g>
+  <g stroke="#0b3150" stroke-linejoin="round">
+    <rect x="340" y="300" width="130" height="16" fill="#627885" stroke-width="4"/>
+    <rect x="340" y="380" width="130" height="12" fill="#fcfaf8" stroke-width="4"/>
+  </g>
+
+  <!-- roof trusses -->
+  <g stroke="#0b3150" fill="none" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M150 262 L400 120 L650 262" stroke-width="6"/>
+    <path d="M215 262 L400 156 L585 262" stroke-width="5"/>
+    <path d="M400 132 L400 258" stroke-width="5"/>
+    <path d="M310 258 L400 192 M490 258 L400 192" stroke-width="4"/>
+  </g>
+
+  <!-- lumber stack -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round" fill="#fcfaf8">
+    <rect x="60" y="520" width="150" height="14"/>
+    <rect x="68" y="506" width="134" height="14"/>
+    <rect x="76" y="492" width="118" height="14"/>
+  </g>
+
+  <!-- sawhorse -->
+  <g stroke="#0b3150" stroke-width="4" stroke-linejoin="round">
+    <path d="M598 506 L582 562 M618 506 L632 562 M692 506 L678 562 M712 506 L726 562" fill="none"/>
+    <rect x="580" y="492" width="150" height="14" fill="#627885"/>
+  </g>
+
+  <g stroke="#0b3150" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M560 90 Q572 78 584 90 Q596 78 608 90"/>
+  </g>
+</svg>
