@@ -37,24 +37,25 @@ required). Nothing is stored locally, so:
   `assets/retired-illustrations/` in case you want them; nothing references
   them, and the folder can be deleted.
 
-## Before you launch — swap these placeholders
+## Content status (updated 2026-08-12)
 
-Search the HTML for `PLACEHOLDER` and `SAMPLE` comments; they mark every spot.
+Real business details are now live: CB Construction Partners, owners Joseph
+Capra & Connor Barnett, (205) 383-7177, info@buildwithcbhomes.com, Cahaba
+Heights AL, real customer testimonials (Mike, Valerie, Bill), and real social
+links (Instagram/Facebook/TikTok).
 
-1. **Founder name & bio** — `[Founder Name]` on the homepage and About page.
-2. **Phone** — `(205) 555-0100` (and `tel:2055550100`) in the footer of every
-   page and on the Contact page.
-3. **Address** — `123 Main Street, Suite 2, Homewood, Alabama 35209` in every
-   footer and the Contact info band.
-4. **Email** — `hello@cbconstruction.example` on the Contact page.
-5. **License number** — `[License #]` in every footer's bottom bar.
-6. **Testimonials** — every quote is attributed to "Sample Client" and marked
-   with `SAMPLE TESTIMONIAL` comments. Replace with real reviews (with
-   permission) before launch — publishing fake reviews can violate FTC rules.
-7. **Social links** — footer Instagram/Facebook/Google links and the Instagram
-   strip tiles point to `#`. Point them at real profiles or remove them.
-8. **Blog numbers** — the deck-cost article uses broad illustrative ranges
-   (marked `PLACEHOLDER COPY`). Review against your real pricing.
+Still to do:
+
+1. **License** — the site says "Insured" only, per the owners. When the
+   Alabama license is issued, update the footer bottom bar (all 9 pages) and
+   the "Insured" block on about.html to "Licensed & Insured" + the number.
+2. **Real job photos** — Joseph sent ~24 photos by email; swap them in for
+   the Unsplash stock images (hero, portfolio, galleries, Instagram strip)
+   and then remove the "representative stock imagery" line in the footer.
+3. **Instagram strip links** — tiles still point to `#`; link them to real
+   posts or the profile.
+4. **Blog numbers** — the deck-cost article uses broad illustrative ranges
+   (marked `PLACEHOLDER COPY`). Review against real pricing.
 
 ## Make the contact form real
 
