@@ -22,20 +22,12 @@ the fonts and photos (both are hotlinked; see "Photography" below).
 
 ## Photography
 
-All photos are **hotlinked from Unsplash** (free license, no attribution
-required). Nothing is stored locally, so:
-
-- The site needs internet access to display images.
-- Before launch, replace them with your own project photos — either swap the
-  `images.unsplash.com` URLs for local files (e.g. `assets/photos/deck-1.jpg`),
-  or keep any Unsplash shots you like (their license permits commercial use).
-- The footer carries a line disclosing that photography is representative
-  stock imagery — remove it once your own photos are in.
-- There are no true fence/deck close-ups in the current set (the Outdoor
-  Living slots use a backyard scene) — prioritize real photos there first.
-- The original hand-drawn illustrations from the previous design are kept in
-  `assets/retired-illustrations/` in case you want them; nothing references
-  them, and the folder can be deleted.
+The site now uses **CB Construction Partners' own project photos** (from Joseph),
+stored web-optimized in `assets/photos/` — 20 images, EXIF-corrected, resized to
+~1600px, ~5.6 MB total. The stock imagery and its footer disclosure have been
+removed. To add more photos later, drop optimized JPEGs into `assets/photos/`
+and reference them the same way. The retired hand-drawn illustrations remain in
+`assets/retired-illustrations/` and can be deleted.
 
 ## Content status (updated 2026-08-12)
 
@@ -49,13 +41,13 @@ Still to do:
 1. **License** — the site says "Insured" only, per the owners. When the
    Alabama license is issued, update the footer bottom bar (all 9 pages) and
    the "Insured" block on about.html to "Licensed & Insured" + the number.
-2. **Real job photos** — Joseph sent ~24 photos by email; swap them in for
-   the Unsplash stock images (hero, portfolio, galleries, Instagram strip)
-   and then remove the "representative stock imagery" line in the footer.
-3. **Instagram strip links** — tiles still point to `#`; link them to real
-   posts or the profile.
+2. **Instagram strip links** — the 7 footer photo tiles point to `#`; link
+   them to real Instagram posts or the profile (instagram.com/cbbuilthomes).
+3. **Contact form backend** — still a demo; wire to Formspree (below).
 4. **Blog numbers** — the deck-cost article uses broad illustrative ranges
    (marked `PLACEHOLDER COPY`). Review against real pricing.
+5. **More photos** — 20 of Joseph's photos are in use; the rest of the batch
+   can be added anytime for a deeper gallery.
 
 ## Make the contact form real
 
