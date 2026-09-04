@@ -88,13 +88,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Numbered testimonial rotator (updates "NO 1" label)
+  // Testimonial rotator
   document.querySelectorAll("[data-quotes]").forEach(function (block) {
-    var label = block.querySelector(".quote-no");
-    makeRotator(block, ".quote-slide", {
-      autoMs: 9000,
-      onChange: function (i) { if (label) label.textContent = "No " + (i + 1); },
-    });
+    makeRotator(block, ".quote-slide", { autoMs: 9000 });
   });
 
   // Galleries carousel (counter advances on click)
