@@ -195,7 +195,7 @@ h1, h2, h3, .display { font-family: var(--display); font-weight: 400; color: var
 .nav-side a[aria-current="page"] { color: var(--gray-light); }
 
 .logo-stack { text-align: center; display: block; }
-.logo-stack svg { width: 84px; height: 64px; margin: 0 auto; display: block; }
+.logo-stack img { width: 72px; height: auto; margin: 0 auto; display: block; }
 .logo-word {
   font-family: var(--sans);
   font-size: 1.05rem;
@@ -215,7 +215,7 @@ h1, h2, h3, .display { font-family: var(--display); font-weight: 400; color: var
 @media (max-width: 980px) {
   .header-grid { display: flex; flex-wrap: wrap; align-items: center; }
   .logo-stack { order: 1; margin-right: auto; }
-  .logo-stack svg { width: 60px; height: 46px; }
+  .logo-stack img { width: 52px; }
   .nav-toggle { display: block; order: 2; }
   .nav-side { display: none; }
   .nav-mobile-open .nav-side {
@@ -323,6 +323,15 @@ h1, h2, h3, .display { font-family: var(--display); font-weight: 400; color: var
   align-items: center;
 }
 @media (max-width: 900px) { .inset-card { grid-template-columns: 1fr; } }
+
+.owner-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .55rem;
+  min-width: 0;
+  align-self: start;
+}
+.owner-pair .ph { min-width: 0; }
 
 /* ---------- Numbered quotes ---------- */
 
@@ -554,7 +563,7 @@ h1, h2, h3, .display { font-family: var(--display); font-weight: 400; color: var
 @media (max-width: 980px) { .footer-main { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 620px) { .footer-main { grid-template-columns: 1fr; } }
 
-.footer-logo svg { width: 92px; height: 70px; }
+.footer-logo img { width: 64px; height: auto; }
 .footer-logo .logo-word { text-align: left; font-size: .95rem; }
 
 .footer-head { font-family: var(--display); font-style: italic; font-size: 1.2rem; color: var(--ink); margin-bottom: 1.1rem; display: block; }
