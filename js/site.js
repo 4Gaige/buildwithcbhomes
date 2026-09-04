@@ -159,16 +159,15 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // ---- Demo form handler ----
-  // NOTE: forms are not wired to a backend yet. See README.md ("Make the
-  // contact form real") for hooking this up to Formspree/Netlify/your CRM.
+  // Only binds form[data-demo-form] (journal newsletter on blog.html).
+  // Contact posts to Formspree; do not preventDefault on forms without the attribute.
   document.querySelectorAll("form[data-demo-form]").forEach(function (form) {
     form.addEventListener("submit", function (ev) {
       ev.preventDefault();
       var scope = form.parentElement || document;
       var msg = scope.querySelector(".form-success") || document.querySelector(".form-success");
       if (msg) {
-        // Honest preview note: removed automatically once the form is wired to
-        // a real backend (drop the data-demo-form attribute — see README.md).
+        // Honest preview note: drop data-demo-form when the form is wired (see README.md).
         if (!msg.querySelector(".demo-note")) {
           var note = document.createElement("p");
           note.className = "form-note mt-1 demo-note";

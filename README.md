@@ -18,7 +18,8 @@ the fonts and photos (both are hotlinked; see "Photography" below).
 | `portfolio.html` | Editorial offset project grid with lightbox |
 | `blog.html` | The Journal — post list + newsletter signup |
 | `posts/*.html` | Three complete starter articles |
-| `contact.html` | Estimate request form + office info |
+| `contact.html` | Estimate request form + office info (Formspree-wired) |
+| `contact-thanks.html` | Post-submit thanks page |
 
 ## Photography
 
@@ -47,7 +48,9 @@ Done:
 
 Still to do:
 
-1. **Contact form backend** — still a demo; wire to Formspree (below).
+1. **Newsletter form** — still a demo on `blog.html`; contact is Formspree-wired
+   (below). Leave the journal signup on `data-demo-form` until a second
+   Formspree ID is available.
 2. **Blog numbers** — the deck-cost article uses broad illustrative ranges.
    Review against real pricing.
 3. **More photos** — 20 of Joseph's photos are in use; the rest of the batch
@@ -55,14 +58,14 @@ Still to do:
 
 ## Make the contact form real
 
-Forms currently show a thank-you message with an honest "nothing was sent"
-note (`data-demo-form` in `js/site.js`). To receive submissions:
+The contact form on `contact.html` posts to Formspree
+(`https://formspree.io/f/mbgjkpzo`) and redirects to `contact-thanks.html`.
+Notify email is set in the Formspree UI, not in this repo.
 
-- **Formspree** — create a free form at formspree.io, change the form tag to
-  `<form action="https://formspree.io/f/YOUR_ID" method="POST">`, and remove
-  the `data-demo-form` attribute (this also removes the preview note).
-- **Netlify Forms** — if hosting on Netlify, add the `netlify` attribute
-  to the form tag instead.
+The journal newsletter on `blog.html` still uses the demo handler
+(`data-demo-form` in `js/site.js`) until a second Formspree ID is available.
+To wire it later: add a Formspree `action`, drop `data-demo-form`, and point
+`_next` at a thanks page.
 
 ## Hosting
 
