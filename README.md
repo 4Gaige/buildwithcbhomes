@@ -48,8 +48,8 @@ Done:
 Still to do:
 
 1. **Contact form backend** — still a demo; wire to Formspree (below).
-2. **Blog numbers** — the deck-cost article uses broad illustrative ranges
-   (marked `PLACEHOLDER COPY`). Review against real pricing.
+2. **Blog numbers** — the deck-cost article uses broad illustrative ranges.
+   Review against real pricing.
 3. **More photos** — 20 of Joseph's photos are in use; the rest of the batch
    can be added anytime for a deeper gallery.
 
