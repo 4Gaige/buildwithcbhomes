@@ -1,6 +1,6 @@
-# CB Construction — Website
+# CB Built Homes — Website
 
-A complete static website for CB Construction: Birmingham-area painting,
+A complete static website for CB Built Homes: Birmingham-area painting,
 fences, decks, and remodeling — growing toward custom home construction.
 Designed in an editorial, photography-forward style: white pages, high-contrast
 display serif, warm greige bands.
@@ -22,7 +22,7 @@ the fonts and photos (both are hotlinked; see "Photography" below).
 
 ## Photography
 
-The site now uses **CB Construction Partners' own project photos** (from Joseph),
+The site now uses **CB Built Homes' own project photos** (from Joseph),
 stored web-optimized in `assets/photos/` — 20 images, EXIF-corrected, resized to
 ~1600px, ~5.6 MB total. The stock imagery and its footer disclosure have been
 removed. To add more photos later, drop optimized JPEGs into `assets/photos/`
@@ -31,7 +31,7 @@ and reference them the same way. The retired hand-drawn illustrations remain in
 
 ## Content status (updated 2026-08-12)
 
-Real business details are now live: CB Construction Partners, owners Joseph
+Real business details are now live: CB Built Homes, owners Joseph
 Capra & Connor Barnett, (205) 383-7177, info@buildwithcbhomes.com, Cahaba
 Heights AL, real customer testimonials (Mike, Valerie, Bill), and real social
 links (Instagram/Facebook/TikTok).
