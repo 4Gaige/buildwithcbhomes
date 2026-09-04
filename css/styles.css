@@ -329,6 +329,7 @@ h1, h2, h3, .display { font-family: var(--display); font-weight: 400; color: var
   grid-template-columns: 1fr 1fr;
   gap: .55rem;
   min-width: 0;
+  align-self: start;
 }
 .owner-pair .ph { min-width: 0; }
 
