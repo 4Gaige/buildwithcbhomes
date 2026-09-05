@@ -1,6 +1,20 @@
 // CB Construction — shared site behavior
 document.documentElement.classList.add("js");
 
+// GA4: capture-phase tel: clicks for the business number
+document.addEventListener("click", function (e) {
+  var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+  if (!a) return;
+  var href = (a.getAttribute("href") || "").replace(/[\s\-\(\)]/g, "").toLowerCase();
+  if (href.indexOf("2053837177") === -1) return;
+  if (typeof gtag === "function") {
+    gtag("event", "tel_click", {
+      link_url: a.getAttribute("href"),
+      method: "tel_link"
+    });
+  }
+}, true);
+
 document.addEventListener("DOMContentLoaded", function () {
   // Mobile nav toggle
   var toggle = document.querySelector(".nav-toggle");
