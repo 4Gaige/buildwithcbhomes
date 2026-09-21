@@ -26,6 +26,11 @@
     .hub-list a { display: block; padding: 1.35rem 1.2rem; font-family: var(--display); font-size: 1.35rem; color: var(--ink); transition: background .2s ease, color .2s ease; }
     .hub-list a:hover, .hub-list a:focus-visible { background: var(--ink); color: var(--paper); }
     .service-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .8rem 1.4rem; }
+    .service-list { list-style: none; margin-top: 1rem; }
+    .service-list li { position: relative; padding-left: 1.8rem; margin-bottom: .45rem; }
+    .service-list li::before { content: "\00B7"; position: absolute; left: 0; color: var(--gray-light); }
+    .funnel-copy a:not(.btn):not(.underline-link) { border-bottom: 1px solid var(--gray-light); }
+    .funnel-copy a:not(.btn):not(.underline-link):hover { color: var(--ink); border-color: var(--ink); }
     @media (max-width: 900px) { .hub-list { grid-template-columns: repeat(2, 1fr); } }
     @media (max-width: 520px) { .hub-list { grid-template-columns: 1fr; } }
   </style>
@@ -156,6 +161,57 @@
           <li><a href="pelham/">Pelham</a></li>
           <li><a href="helena/">Helena</a></li>
         </ul>
+      </div>
+    </section>
+
+
+    <section class="section" id="tier-a-neighborhoods">
+      <div class="wrap wrap--wide reveal funnel-copy">
+        <span class="caps eyebrow">Tier A Neighborhoods</span>
+        <h2 class="display-2">Subdivision pages grouped by parent hub</h2>
+        <p class="mt-2">Phase 2 Tier A neighborhood remodel pages nest under their parent city hubs. Proof stays metro or nearby until an exact-neighborhood job is labeled LIVE.</p>
+        <div class="mt-3 funnel-copy">
+          <h3 class="display-3">Mountain Brook</h3>
+          <ul class="service-list">
+            <li><a href="mountain-brook/crestline/">Crestline</a></li>
+            <li><a href="mountain-brook/cherokee-bend/">Cherokee Bend</a></li>
+            <li><a href="mountain-brook/brookwood-forest/">Brookwood Forest</a></li>
+            <li><a href="mountain-brook/belle-meade/">Belle Meade</a></li>
+            <li><a href="mountain-brook/overton/">Overton</a></li>
+          </ul>
+          <h3 class="display-3 mt-2">Vestavia Hills</h3>
+          <ul class="service-list">
+            <li><a href="vestavia-hills/liberty-park/">Liberty Park</a></li>
+            <li><a href="vestavia-hills/old-overton/">Old Overton</a></li>
+            <li><a href="vestavia-hills/rocky-ridge/">Rocky Ridge</a></li>
+            <li><a href="vestavia-hills/altadena-ridge/">Altadena Ridge</a></li>
+          </ul>
+          <h3 class="display-3 mt-2">Homewood</h3>
+          <ul class="service-list">
+            <li><a href="homewood/edgewood/">Edgewood</a></li>
+            <li><a href="homewood/hollywood/">Hollywood</a></li>
+            <li><a href="homewood/mayfair/">Mayfair</a></li>
+            <li><a href="homewood/grove-park/">Grove Park</a></li>
+          </ul>
+          <h3 class="display-3 mt-2">Hoover</h3>
+          <ul class="service-list">
+            <li><a href="hoover/ross-bridge/">Ross Bridge</a></li>
+            <li><a href="hoover/riverchase/">Riverchase</a></li>
+            <li><a href="hoover/bluff-park/">Bluff Park</a></li>
+            <li><a href="hoover/lake-cyrus/">Lake Cyrus</a></li>
+            <li><a href="hoover/inverness/">Inverness</a></li>
+          </ul>
+          <h3 class="display-3 mt-2">Greystone</h3>
+          <ul class="service-list">
+            <li><a href="greystone/greystone-crest/">Greystone Crest</a></li>
+            <li><a href="greystone/greystone-legacy/">Greystone Legacy</a></li>
+            <li><a href="greystone/greystone-farms/">Greystone Farms</a></li>
+          </ul>
+          <h3 class="display-3 mt-2">Trussville</h3>
+          <ul class="service-list">
+            <li><a href="trussville/carrington-lakes/">Carrington Lakes</a></li>
+          </ul>
+        </div>
       </div>
     </section>
 
