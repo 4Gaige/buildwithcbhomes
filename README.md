@@ -39,10 +39,11 @@ links (Instagram/Facebook/TikTok).
 
 Done:
 
-1. **Licensed & Insured** — footer copyright on all pages, the How We Work
-   block on about.html, and the commercial/services bullet now say
-   "Licensed & Insured". No license number is published; documentation is
-   available on request.
+1. **Insured** — footer copyright on all pages, the How We Work block on
+   about.html, and the commercial/services bullet now say "Insured"
+   (changed from "Licensed & Insured" on 2026-09-26: the Alabama license is
+   not confirmed; the claim goes back only if a license is found).
+   Documentation is available on request.
 2. **Instagram strip links** — the 7 footer photo tiles now go to
    instagram.com/cbbuilthomes.
 
