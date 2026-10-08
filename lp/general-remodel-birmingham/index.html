@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex,nofollow">
   <title>Home Remodeling Birmingham | Free Estimate | CB Built Homes</title>
-  <meta name="description" content="Interior remodels and room updates for greater Birmingham. Floors and furniture covered, free estimate from CB Built Homes. Call (205) 383-7177.">
+  <meta name="description" content="Interior remodels and room updates for greater Birmingham: flooring, trim, doors, paint, drywall, and built-ins. Free estimate from CB Built Homes. Call (205) 383-7177.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400;1,6..96,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Home Remodeling Birmingham | Free Estimate | CB Built Homes">
-  <meta property="og:description" content="Interior remodels and room updates for greater Birmingham. Floors and furniture covered, free estimate from CB Built Homes.">
+  <meta property="og:description" content="Interior remodels and room updates for greater Birmingham: flooring, trim, doors, paint, drywall, and built-ins. Free estimate from CB Built Homes.">
   <meta property="og:image" content="https://buildwithcbhomes.com/assets/photos/great-room.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="stylesheet" href="../../css/styles.css">
@@ -52,6 +52,10 @@
     .related-links a { font-family: var(--display); font-size: 1.2rem; line-height: 1.5; color: var(--ink); border-bottom: 1px solid var(--gray-light); }
     .related-links a:hover { border-color: var(--ink); }
     @media (max-width: 900px) { #cta .btn--slate { margin-left: 0 !important; margin-top: .6rem; } }
+    .plan-steps { list-style: none; counter-reset: step; margin-top: 2rem; }
+    .plan-steps li { counter-increment: step; position: relative; padding-left: 3.2rem; margin-bottom: 1.5rem; }
+    .plan-steps li::before { content: counter(step, decimal-leading-zero); position: absolute; left: 0; top: .15rem; font-family: var(--sans); font-size: .78rem; letter-spacing: .2em; color: var(--gray); }
+    .plan-steps strong { font-weight: 500; color: var(--ink); }
     @media (max-width: 900px) {
       .page-lp .philosophy-grid { padding-top: 1.6rem; gap: 1.6rem; }
       .page-lp .philosophy-grid .funnel-copy { order: -1; }
@@ -97,9 +101,9 @@
           </div>
           <div class="reveal funnel-copy">
             <span class="caps eyebrow">Home Remodeling</span>
-            <h1 class="display-2">Home remodeling for <span class="italic-accent">greater Birmingham</span></h1>
+            <h1 class="display-2">Room remodels for <span class="italic-accent">greater Birmingham</span></h1>
             <p class="trust-line">Veteran co-owned · Cahaba Heights · Free estimates · Financing available through Acorn Finance</p>
-            <p class="mt-2">Interior remodels and room updates, run by one GC. CB Built Homes is a Birmingham-area remodel GC based in Cahaba Heights. Floors and furniture covered, we clean up as we go, and the estimate is free.</p>
+            <p class="mt-2">Floors, trim, doors, paint, drywall, and built-ins, handled by one remodel GC based in Cahaba Heights. Floors and furniture covered, and we clean up as we go.</p>
             <p class="mt-2">
               <a class="btn" href="tel:+12053837177">Call (205) 383-7177</a>
               <a class="btn btn--slate" href="#estimate" style="margin-left:.6rem">Request Estimate</a>
@@ -113,7 +117,7 @@
       <div class="wrap wrap--narrow reveal">
         <div class="center funnel-copy">
           <span class="italic-lead">Local remodel GC. Straight answers.</span>
-          <h2 class="display-2 mt-1">Request a remodel estimate</h2>
+          <h2 class="display-2 mt-1">Request a free remodel estimate</h2>
           <p class="mt-2">Tell us your city, which rooms you want to change, and what is not working today. Call weekdays 7-5. Miss us and we call back within 10 minutes.</p>
           <span class="caps privacy-note">The information you provide is used only to reach back out to you. We never share your information.</span>
         </div>
@@ -152,7 +156,7 @@
           </div>
           <div class="field">
             <label for="lp-details">Tell us about the project</label>
-            <textarea id="lp-details" name="details" placeholder="Which rooms? What is not working today? Floors, trim, paint, layout, or a full room refresh?"></textarea>
+            <textarea id="lp-details" name="details" placeholder="Which rooms? Floors, trim, doors, paint, drywall, or built-ins? What bothers you most about the space today?"></textarea>
           </div>
           <div>
             <button type="submit" class="btn btn--slate">Inquire Now</button>
@@ -164,25 +168,38 @@
 
     <section class="section" id="pain">
       <div class="wrap wrap--narrow reveal funnel-copy">
-        <h2 class="display-2">A remodel should fix how the house works, not turn it upside down</h2>
-        <p class="mt-2">Rooms that never fit how the family lives. Worn floors, tired trim, and finishes from another decade. A half-finished project from the last crew. Too many separate trades to chase down. Dust on everything and furniture shoved into the wrong room.</p>
-        <p class="mt-1">Greater Birmingham homeowners want one GC to run the room, protect the rest of the house, and clean up as they go.</p>
-        <p class="mt-1">CB Built Homes is a Birmingham-area remodel GC based in Cahaba Heights. Interior remodels and room updates are in scope today.</p>
+        <h2 class="display-2">When a room stops working, it is rarely one problem</h2>
+        <p class="mt-2">Floors that are scratched, worn through, or mismatched room to room. Builder-grade trim and hollow doors. Walls patched so many times that paint will not hide it. A basement or bonus room that never got finished. No good place for the TV, the books, or the everyday clutter.</p>
+        <p class="mt-1">Fixing it usually takes several trades in the same rooms: flooring, carpentry, drywall, and paint. Lining those up yourself means separate schedules, separate messes, and nobody owning how the room comes together.</p>
       </div>
     </section>
 
-    <section class="section band" id="includes">
+    <section class="section band" id="plan">
+      <div class="wrap wrap--narrow reveal funnel-copy">
+        <span class="caps eyebrow">The Plan</span>
+        <h2 class="display-2">One GC, one plan for the room</h2>
+        <ol class="plan-steps">
+          <li><strong>Free estimate.</strong> We walk the rooms with you and talk through what is not working and what you want instead.</li>
+          <li><strong>Protect the house.</strong> Floors and furniture covered before the first tool comes out.</li>
+          <li><strong>Run the room as one job.</strong> Flooring, carpentry, drywall, and paint under one remodel GC, not four separate hires.</li>
+          <li><strong>Clean up as we go.</strong> Then the covers come off and the room is yours.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="includes">
       <div class="wrap grid-2">
         <div class="reveal funnel-copy">
           <span class="caps eyebrow">What We Do</span>
-          <h2 class="display-2">Interior remodels and room updates</h2>
-          <p class="mt-2">Typical remodel scope pieces, always project-specific:</p>
+          <h2 class="display-2">Room-update scope we handle</h2>
           <ul class="service-list">
-            <li>Interior remodels, one room or several</li>
-            <li>Room updates: flooring, trim, and paint</li>
-            <li>Finish updates in living rooms, bedrooms, and basements</li>
-            <li>Floors and furniture covered while we work</li>
-            <li>We clean up as we go</li>
+            <li>Hardwood and LVP flooring</li>
+            <li>Baseboard, trim, and interior doors</li>
+            <li>Interior paint: walls, ceilings, trim, and cabinets</li>
+            <li>Drywall repair and patching</li>
+            <li>Built-ins and finish carpentry</li>
+            <li>TV mounting</li>
+            <li>Basement and bonus-room refreshes</li>
           </ul>
           <p class="mt-2">Licensed &amp; Insured. Every estimate is free and specific to your home.</p>
         </div>
@@ -194,17 +211,17 @@
       </div>
     </section>
 
-    <section class="section" id="fit">
+    <section class="section band" id="fit">
       <div class="wrap">
         <div class="center reveal">
           <span class="caps eyebrow">A Good Fit</span>
-          <h2 class="display-2">Right fit for a remodel with us</h2>
+          <h2 class="display-2">Is this a fit?</h2>
         </div>
         <div class="fit-grid mt-3">
           <div class="reveal">
             <h3 class="display-3">Good fit</h3>
             <hr class="rule mt-1">
-            <p class="mt-1">An interior remodel or room update at a home in Birmingham metro and nearby cities we serve. You want one GC to run it, keep the rest of the house protected, and keep the site clean.</p>
+            <p class="mt-1">One or more rooms in a Birmingham-area home that need floors, trim, paint, drywall, or built-ins brought up to date. You want one GC to run it, with floors and furniture covered and the site kept clean.</p>
           </div>
           <div class="reveal">
             <h3 class="display-3">Not the best fit</h3>
@@ -215,10 +232,10 @@
       </div>
     </section>
 
-    <section class="section band" id="related">
+    <section class="section" id="related">
       <div class="wrap wrap--narrow reveal funnel-copy center">
         <span class="caps eyebrow">Related</span>
-        <h2 class="display-2">Planning a kitchen or a bath?</h2>
+        <h2 class="display-2">Kitchen or bath on the list?</h2>
         <ul class="related-links">
           <li><a href="../kitchen-remodel-birmingham/">Kitchen remodeling in greater Birmingham</a></li>
           <li><a href="../bathroom-remodel-birmingham/">Bathroom remodeling in greater Birmingham</a></li>
@@ -226,7 +243,7 @@
       </div>
     </section>
 
-    <section class="section" id="cta">
+    <section class="section band" id="cta">
       <div class="wrap wrap--narrow reveal">
         <div class="center funnel-copy">
           <span class="italic-lead">Licensed &amp; Insured. Free estimates.</span>
