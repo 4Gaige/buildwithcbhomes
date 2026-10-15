@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", function () {
 //    The CRM post is best-effort: any failure or a 2.5s timeout never blocks
 //    the Formspree submission.
 (function () {
-  var CRM_WORKSPACE_ID = ""; // set to the CB workspace id to enable CRM intake
+  var CRM_WORKSPACE_ID = "cmv6frmxd0000rep2oggnnoqb"; // CB Built Homes (public id, not a secret)
   var CRM_API_URL = "https://api.buildwithcbhomes.com/api/public/leads";
   var KEYS = ["gclid", "fbclid", "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content"];
   var STORE = "cb_attr";
